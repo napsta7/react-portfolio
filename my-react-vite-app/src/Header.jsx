@@ -1,16 +1,26 @@
+import { Link } from 'react-router-dom';
+
+
 function Header() {
     return (
-        <header>
-            <h1>Paige Harvey Portfolio</h1>
-            <nav>
-                <ul>
-                    <li>About Me</li>
-                    <li>Portfolio</li>
-                    <li>Contact</li>
-                    <li>Resume</li>
-                </ul>
-            </nav>
-        </header>
+            <header>
+                <nav>
+                    <ul>
+                        <li>
+                            <Link to='/'>About Me</Link>
+                        </li>
+                        <li>
+                            <Link to='/portfolio'>Portfolio</Link>
+                        </li>
+                        <li>
+                            <Link to='/contact'>Contact</Link>
+                        </li>
+                        <li>
+                            <Link to='/resume'>Resume</Link>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
     );
 }
-export default Header
+export default Header;
