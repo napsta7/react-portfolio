@@ -8,3 +8,5 @@ I used a stack overflow post to help with creating the pdf download link: https:
 I also used a freecodecamp article for putting the footer at the bottom of the page:
 https://www.freecodecamp.org/news/how-to-keep-your-footer-where-it-belongs-59c6aa05c59c/
 I also used code that was corrected/supplied by the Xpert Learning Assistant.
+
+## Screenshot of Application:
