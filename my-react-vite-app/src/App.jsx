@@ -1,20 +1,7 @@
-import React from 'react';
-import { Routes, Route } from 'react-router-dom';
-import Header from './Header';
-import Footer from './Footer'
+//This is the App component that renders everything that is in the portfolio container.
+import PortfolioContainer from "./PortfolioContainer";
 
 function App() {
-    return (
-        <div>
-            <Header />
-            <Routes>
-                <Route path="/" element={<h1>About Me</h1>} />
-                <Route path="/portfolio" element={<h1>Portfolio</h1>} />
-                <Route path="/contact" element={<h1>Contact</h1>} />
-                <Route path="/resume" element={<h1>Resume</h1>} />
-            </Routes>
-            <Footer/>
-        </div>
-    );
+    return (<PortfolioContainer />);
 }
 export default App;
