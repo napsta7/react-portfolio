@@ -9,4 +9,8 @@ I also used a freecodecamp article for putting the footer at the bottom of the p
 https://www.freecodecamp.org/news/how-to-keep-your-footer-where-it-belongs-59c6aa05c59c/
 I also used code that was corrected/supplied by the Xpert Learning Assistant.
 
+## Link to Deployed Application:
+https://paigeharveyportfolio.netlify.app/
+
 ## Screenshot of Application:
+![alt text](/my-react-vite-app/public/portfolio.png)
