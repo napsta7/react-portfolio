@@ -5,7 +5,7 @@ import Navigation from './Nav';
 function Header() {
     return (
             <header>
-                <h1>Paige Harvey React Portfolio</h1>
+                <h1>Paige Harvey Portfolio</h1>
                 <hr/>
                 <Navigation />
                 <hr/>
